@@ -25,11 +25,31 @@ let viewPath = "../views";
 
 let indexFile = "/index.html";
 
+let portfolioStyleFile = "/styles/profile.css";
+
+let resumeFile = "/docs/Resume.pdf";
+
 let relativeFilePath = path.join(__dirname, viewPath);
 
 app.get("/", async ( req: any, res: any ) => {
 
     let viewFile = await readFile( relativeFilePath + indexFile, "utf-8");
+
+    res.send( viewFile );
+
+})
+
+app.get("/css/profile.css", async ( req: any, res: any ) => {
+
+    let viewFile = await readFile( relativeFilePath +  portfolioStyleFile );
+
+    res.send( viewFile );
+
+})
+
+app.get("/resume.pdf", async ( req: any, res: any ) => {
+
+    let viewFile = await readFile( relativeFilePath + resumeFile );
 
     res.send( viewFile );
 
