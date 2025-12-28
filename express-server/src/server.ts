@@ -6,19 +6,32 @@ import morgan from "morgan";
 
 import path from "path";
 
+import { fileURLToPath } from 'node:url';
+
 const app = express();
 
 let port = 3007;
 
-morgan("dev");
+app.use( morgan("dev") );
 
-app.use(express.static("../views"));
+app.use( express.static("../views") );
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
+
+let macFilePath = "/Users/donovanfrazier/Projects/portfolio-site/express-server/views/index.html";
+
+let viewPath = "../views";
+
+let indexFile = "/index.html";
+
+let relativeFilePath = path.join(__dirname, viewPath);
 
 app.get("/", async ( req: any, res: any ) => {
 
-    // let viewFile = await readFile( "./server.js", "utf-8");
+    let viewFile = await readFile( relativeFilePath + indexFile, "utf-8");
 
-    res.send( "<html><body><h1>Hello World</h1></body></html>" );
+    res.send( viewFile );
 
 })
 
