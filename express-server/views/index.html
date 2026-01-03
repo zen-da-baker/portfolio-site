@@ -1,413 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>Donovan Frazier Profile</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-
-    <!--Bootstrap 5 styling-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
     
-    <link rel="stylesheet" href="styles/profile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
 
-    <script src="JavaScript/toggleButton.js"></script>
-    <script src="JavaScript/Header.js"></script>
-</head>
+        <!-- The meta data of the page in the head tag -->
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Donovan Frazier Portfolio</title>
+
+        <!-- The favicon icon -->
+        <link rel="icon" type="image/x-icon" href="images/icons/bytesized-orange.png" />
+
+        <link rel="stylesheet" href="styles/global.css" />
         
+        <link rel="stylesheet" href="styles/profile.css" />
+
+    </head>
         
-        
-        
-<body>
+    <body>
 
-    <header>
+        <header>
 
-        <h1>Donovan Frazier</h1>
+            <h1>Donovan Frazier</h1>
 
-    </header>
+        </header>
 
-    <section>
+        <main>
 
-        <h2>About</h2>
+            <section>
 
-    </section>
-    <div class="content">
-        <div class="header" id="myHeader">
-            <nav class="navbar navbar-dark bg-dark">
+                <h2>About</h2>
 
-                <a class="navbar-brand" href="index.html" style="padding-left:25px">
-                    Donovan Frazier
-                </a>
-                    
-                <div class="navbar-links">
+            </section>
 
-                    <a href="index.html" class="btn text-white"><i class="fa fa-home"></i> Home</a>
-                    <a href="Resume.pdf" target="_blank" class="btn text-white"><i class="fa fa-file-pdf-o"></i> Resume</a>
-                    <a href="portfolio.html" class="btn text-white"><i class="fa fa-clone"></i> Portfolio</a>
-                    <a href="https://www.linkedin.com/in/dawn-frazier-8758b41ba/" target="_blank" class="btn text-white"><i class="fa fa-linkedin-square"></i> Linkedin</a>
-                    <a href="https://github.com/dawn-frazier" target="_blank" class="btn text-white"><i class="fa fa-github"></i> Github</a>
+            <div class="content">
+                <div class="header" id="myHeader">
+                    <nav class="navbar navbar-dark bg-dark">
 
-                </div>
+                        <a class="navbar-brand" href="index.html" style="padding-left:25px">
+                            Donovan Frazier
+                        </a>
+                            
+                        <div class="navbar-links">
 
-                <div class="navbar-links">
-                    <div class="dropdown">
-                        <button class="dropbtn">More
-                            <i class="fa fa-caret-down"></i>
+                            <a href="index.html" class="btn text-white"><i class="fa fa-home"></i> Home</a>
+                            <a href="Resume.pdf" target="_blank" class="btn text-white"><i class="fa fa-file-pdf-o"></i> Resume</a>
+                            <a href="portfolio.html" class="btn text-white"><i class="fa fa-clone"></i> Portfolio</a>
+                            <a href="https://www.linkedin.com/in/dawn-frazier-8758b41ba/" target="_blank" class="btn text-white"><i class="fa fa-linkedin-square"></i> Linkedin</a>
+                            <a href="https://github.com/dawn-frazier" target="_blank" class="btn text-white"><i class="fa fa-github"></i> Github</a>
+
+                        </div>
+
+                        <div class="navbar-links">
+                            <div class="dropdown">
+                                <button class="dropbtn">More
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+
+                                <div class="dropdown-content">
+                                    <a href="contact.html"><span></span>Contact</a>
+                                    <a href="education.html"><span></span>Education</a>
+                                    <a href="about.html"><span></span>About</a>
+                                    <a href="awards_and_publications.html"><span></span>Awards and Publications</a>
+                                    <a href="notion.html"><span></span>Notion</a>
+                                    <a href="WebApps.html"><span></span>Web Apps</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="toggle-button">
+                            <a href="#" class="button-action">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </a>
                         </button>
 
-                        <div class="dropdown-content">
-                            <a href="contact.html"><span></span>Contact</a>
-                            <a href="education.html"><span></span>Education</a>
-                            <a href="about.html"><span></span>About</a>
-                            <a href="awards_and_publications.html"><span></span>Awards and Publications</a>
-                            <a href="notion.html"><span></span>Notion</a>
-                            <a href="WebApps.html"><span></span>Web Apps</a>
+                        <div class="right-header">
+                            <div>
+                                <button type="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton" class="btn text-white"><i class="fa fa-moon-o"></i> Dark Mode</button>
+                            </div>
                         </div>
+
+                    </nav>
+                </div>
+            </div>
+
+            <div class="content">
+
+
+                
+                <h1 class="center-text" style="padding-top:100px;">Portfolio</h1>
+
+                <h2 class="center-text">Projects</h2>
+
+                <div class="container">
+                    <div class="row row-cols-3 g-3">
+
+                        <div>
+
+                            <h3>ByteSized Notes</h3>
+
+                            <p>
+                                This web application acts as a dashboard for all of your classroom note taking. 
+                                The information is saved to the user's device, allowing them to open their notes with or without an internet connection.
+                                The web application makes use of a service worker to store files to the cache, allowing offline access.
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>ByteSized Budget</h3>
+
+                            <p>
+                                This is a web application for keeping track of your budget. 
+                                The app will provide stats about your spending back to you.
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>ByteSized Pantry</h3>
+
+                            <p>
+                                This website is a web application in which the user can create an inventory of everything stored in their pantry, add recipes, and create grocery lists.
+                                When the user wants to make a meal during the week, the app will gather a list of ingredients they need that they do not already have.
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>Math Quiz</h3>
+
+                            <p>
+                                This website uses vanilla website technologies to allow a player to submit answers to simple addition problems.
+                                Each correct answer awards the player a point. 
+                                The website makes use of a service worker and the Cache API to allow offline availability of the website. 
+                                This was the first website project to enable this capability. 
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h3>ByteSized Crew Website and Server</h3>
+
+                            <p>
+                                The ByteSized Crew website uses vanilla website technologies and is hosted on a website Server
+                                owned and administered by me. All websites created by me are hosted on this website server.
+                            </p>
+
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="#" target="_blank">
+                                    <img class="card-img-top" src="images/Silver_Sun_Demo_Site.png" alt="Demo page of the Silver Sun website">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Silver Sun Web Demo</h3>
+                                    <p class="card-text text-center">Live Web Application Demo - <b>Web Developer</b></p>
+
+                                    <p class="card-text d-inline">July 2023</p>
+                                    <a href="#" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="https://quiltsbyginny.com/" target="_blank">
+                                    <img class="card-img-top" src="images/quiltsHome v3.jpg" alt="Thumbnail home page of the Quilts by Ginny webpage">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Quilts by Ginny</h3>
+                                    <p class="card-text text-center">Web Portfolio - <b>Designer</b></p>
+
+                                    <p class="card-text d-inline">Mar 2023</p>
+                                    <a href="https://quiltsbyginny.com/" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Project Site</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="journalism/historyHome.html">
+                                    <img class="card-img-top" src="images/historyHome v3.jpg" alt="Thumbnail of history section of this portfolio">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">History Essays Samples</h3>
+                                    <p class="card-text text-center">Mock Journalism Site - <b>Designer</b></p>
+
+                                    <p class="card-text d-inline">Feb 2023</p>
+                                    <a href="journalism/historyHome.html" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Project Site</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Girls_in_STEM.html">
+                                    <img class="card-img-top" src="images/Girls_in_STEM.jpg" alt="Video commission thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Girls in STEM</h3>
+                                    <p class="card-text text-center">Video Production - <b>Video Editor</b></p>
+
+                                    <p class="card-text d-inline">Feb 2023</p>
+                                    <a href="portfolioProjects/Girls_in_STEM.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Accessibility_Review_and_Revision.html">
+                                    <img class="card-img-top" src="images/Article.jpg" alt="Article thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Accessibility Review and Revision</h3>
+                                    <p class="card-text text-center">Website Revision - <b>Designer</b></p>
+
+                                    <p class="card-text d-inline">Dec 2021 - Feb 2022</p>
+                                    <a href="portfolioProjects/Accessibility_Review_and_Revision.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Digital_Learning_Objects.html">
+                                    <img class="card-img-top" src="images/tutorial v2.jpg" alt="Tutorial thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Digital Learning Objects</h3>
+                                    <p class="card-text text-center">Online Tutorials - <b>eLearning Developer</b></p>
+
+                                    <p class="card-text d-inline">Aug 2021 - Jan 2023</p>
+                                    <a href="portfolioProjects/Digital_Learning_Objects.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/tech_talks.html">
+                                    <img class="card-img-top" src="images/tech_talk.png" alt="tech talk thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Tech Talks</h3>
+                                    <p class="card-text text-center">Interviews - <b>Outreach Coordinator</b></p>
+
+                                    <p class="card-text d-inline">Jan 2022 - Dec 2022</p>
+                                    <a href="portfolioProjects/tech_talks.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/WWII_Impact_Video.html">
+                                    <img class="card-img-top" src="images/Video.png" alt="Video thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">History Video Essay</h3>
+                                    <p class="card-text text-center">Video Essay - <b>Videographer</b></p>
+
+                                    <p class="card-text d-inline">Feb 2022 - Mar 2022</p>
+                                    <a href="portfolioProjects/WWII_Impact_Video.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Silver_Sun.html">
+                                    <img class="card-img-top" src="images/Silver_Sun.png" alt="Silver Sun thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Silver Sun</h3>
+                                    <p class="card-text text-center">Video Game - <b>Editor and Producer</b></p>
+
+                                    <p class="card-text d-inline">Apr 2021 - Jun 2022</p>
+                                    <a href="portfolioProjects/Silver_Sun.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Grandma_Please.html">
+                                    <img class="card-img-top" src="images/Grandma_Please.png" alt="Grandma Please thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Grandma Please!</h3>
+                                    <p class="card-text text-center">Video Game - <b>Copy Editor</b></p>
+
+                                    <p class="card-text d-inline">Oct 2020 - May 2022</p>
+                                    <a href="portfolioProjects/Grandma_Please.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card border border-dark">
+                                <a href="portfolioProjects/Cymbal_Learning_Series.html">
+                                    <img class="card-img-top" src="images/Cymbal.png" alt="Cymbal learning series thumbnail">
+                                </a>
+
+                                <div class="card-body">
+                                    <h3 class="card-title text-center">Cymbal Learning Series</h3>
+                                    <p class="card-text text-center">Video Tutorial Series - <b>Videographer</b></p>
+
+                                    <p class="card-text d-inline">Jun 2020 - Sep 2020</p>
+                                    <a href="portfolioProjects/Cymbal_Learning_Series.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>            
+                </div>
+
+                    <hr class="solid">
+                    
+                    <h2 class="center-text" style="padding-top:50px;">Experience</h2>
+
+                    <div class="center-text">
+
+                        <p>Aug 2021 - Jan 2023</p>
+                        <h3>Corriculum Development Student Assistant</h3>
+                        <p><b>University of California, Riverside: Library</b></p>
+                        <ul class="standard">
+                            <li>Design and edit digital learning objects for deployment in LMS portasl such as Canvas</li>
+                            <li>Video and photo editing assets used in online tutorials</li>
+                            <li>Develop a review system to improve the Library's design process</li>
+                            <li>Design a new file hierarchy for the department's cloud storage</li>
+                        </ul>
+
+                        <br>
+
+                        <p>Dec 2021 - Jan 2023</p>
+                        <h3>Outreach Coordinator</h3>
+                        <p><b>Gamespawn: Game Development Club</b></p>
+                        <ul class="standard">
+                            <li>Organize speaking events with video game industry professionals</li>
+                            <li>Design recruitment posters which boosted club workshop attendance <br> by 3x in the fall of 2022</li>
+                        </ul>
+
+                    </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-8">
+                            <iframe src="docs/resume.pdf" style="width:100%; height:500px;"></iframe>
+                        </div>
+                        <div class="col"></div>
                     </div>
                 </div>
 
-                <button class="toggle-button">
-                    <a href="#" class="button-action">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </a>
-                </button>
+            </div>
+            
+            <section>
 
-                <div class="right-header">
-                    <div>
-                        <button type="button" onclick="toggleDarkMode();toggleButtonStyle()" id="modeButton" class="btn text-white"><i class="fa fa-moon-o"></i> Dark Mode</button>
-                    </div>
-                </div>
+                <h2>Contact</h2>
 
-            </nav>
-        </div>
-    </div>
-
-    <div class="content">
-
+            </section>
 
         
-        <h1 class="center-text" style="padding-top:100px;">Portfolio</h1>
 
-        <h2 class="center-text">Projects</h2>
+        </main>
 
-        <div class="container">
-            <div class="row row-cols-3 g-3">
+        <footer>
+        <ul class="footer">
+            <li class="footer"><a href="index.html">Home</a></li>
+            <li class="footer"><a href="Resume.pdf" target="_blank">Resume</a></li>
+            <li class="footer"><a href="portfolio.html">Portfolio</a></li>
+            <li class="footer"><a href="contact.html">Contact</a></li>
+            <li class="footer"><a href="https://www.linkedin.com/in/donovan-frazier-8758b41ba/">Linkedin</a></li>
 
-                <div>
+            <li class="footer"><a href="education.html">Education</a></li>
+            <li class="footer"><a href="about.html">About</a></li>
+            <li class="footer"><a href="awards_and_publications.html">Awards and Publications</a></li>
+            <li class="footer"><a href="portfolioProjects/tech_talks.html">Tech Talks</a></li>
+            <li class="footer"><a href="notion.html">Notion</a></li>
+            <li class="footer"><a href="WebApps.html">Web Apps</a></li>
+        </ul>
 
-                    <h3>ByteSized Notes</h3>
+        <br><br><br><br><br>
 
-                    <p>
-                        This web application acts as a dashboard for all of your classroom note taking. 
-                        The information is saved to the user's device, allowing them to open their notes with or without an internet connection.
-                        The web application makes use of a service worker to store files to the cache, allowing offline access.
-                    </p>
-
-                </div>
-
-                <div>
-
-                    <h3>ByteSized Budget</h3>
-
-                    <p>
-                        This is a web application for keeping track of your budget. 
-                        The app will provide stats about your spending back to you.
-                    </p>
-
-                </div>
-
-                <div>
-
-                    <h3>ByteSized Pantry</h3>
-
-                    <p>
-                        This website is a web application in which the user can create an inventory of everything stored in their pantry, add recipes, and create grocery lists.
-                        When the user wants to make a meal during the week, the app will gather a list of ingredients they need that they do not already have.
-                    </p>
-
-                </div>
-
-                <div>
-
-                    <h3>Math Quiz</h3>
-
-                    <p>
-                        This website uses vanilla website technologies to allow a player to submit answers to simple addition problems.
-                        Each correct answer awards the player a point. 
-                        The website makes use of a service worker and the Cache API to allow offline availability of the website. 
-                        This was the first website project to enable this capability. 
-                    </p>
-
-                </div>
-
-                <div>
-
-                    <h3>ByteSized Crew Website and Server</h3>
-
-                    <p>
-                        The ByteSized Crew website uses vanilla website technologies and is hosted on a website Server
-                        owned and administered by me. All websites created by me are hosted on this website server.
-                    </p>
-
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="#" target="_blank">
-                            <img class="card-img-top" src="images/Silver_Sun_Demo_Site.png" alt="Demo page of the Silver Sun website">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Silver Sun Web Demo</h3>
-                            <p class="card-text text-center">Live Web Application Demo - <b>Web Developer</b></p>
-
-                            <p class="card-text d-inline">July 2023</p>
-                            <a href="#" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Live Demo</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="https://quiltsbyginny.com/" target="_blank">
-                            <img class="card-img-top" src="images/quiltsHome v3.jpg" alt="Thumbnail home page of the Quilts by Ginny webpage">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Quilts by Ginny</h3>
-                            <p class="card-text text-center">Web Portfolio - <b>Designer</b></p>
-
-                            <p class="card-text d-inline">Mar 2023</p>
-                            <a href="https://quiltsbyginny.com/" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Project Site</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="journalism/historyHome.html">
-                            <img class="card-img-top" src="images/historyHome v3.jpg" alt="Thumbnail of history section of this portfolio">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">History Essays Samples</h3>
-                            <p class="card-text text-center">Mock Journalism Site - <b>Designer</b></p>
-
-                            <p class="card-text d-inline">Feb 2023</p>
-                            <a href="journalism/historyHome.html" target="_blank" class="d-inline btn btn-secondary" style="float:right;">Project Site</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Girls_in_STEM.html">
-                            <img class="card-img-top" src="images/Girls_in_STEM.jpg" alt="Video commission thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Girls in STEM</h3>
-                            <p class="card-text text-center">Video Production - <b>Video Editor</b></p>
-
-                            <p class="card-text d-inline">Feb 2023</p>
-                            <a href="portfolioProjects/Girls_in_STEM.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Accessibility_Review_and_Revision.html">
-                            <img class="card-img-top" src="images/Article.jpg" alt="Article thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Accessibility Review and Revision</h3>
-                            <p class="card-text text-center">Website Revision - <b>Designer</b></p>
-
-                            <p class="card-text d-inline">Dec 2021 - Feb 2022</p>
-                            <a href="portfolioProjects/Accessibility_Review_and_Revision.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Digital_Learning_Objects.html">
-                            <img class="card-img-top" src="images/tutorial v2.jpg" alt="Tutorial thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Digital Learning Objects</h3>
-                            <p class="card-text text-center">Online Tutorials - <b>eLearning Developer</b></p>
-
-                            <p class="card-text d-inline">Aug 2021 - Jan 2023</p>
-                            <a href="portfolioProjects/Digital_Learning_Objects.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/tech_talks.html">
-                            <img class="card-img-top" src="images/tech_talk.png" alt="tech talk thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Tech Talks</h3>
-                            <p class="card-text text-center">Interviews - <b>Outreach Coordinator</b></p>
-
-                            <p class="card-text d-inline">Jan 2022 - Dec 2022</p>
-                            <a href="portfolioProjects/tech_talks.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/WWII_Impact_Video.html">
-                            <img class="card-img-top" src="images/Video.png" alt="Video thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">History Video Essay</h3>
-                            <p class="card-text text-center">Video Essay - <b>Videographer</b></p>
-
-                            <p class="card-text d-inline">Feb 2022 - Mar 2022</p>
-                            <a href="portfolioProjects/WWII_Impact_Video.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Silver_Sun.html">
-                            <img class="card-img-top" src="images/Silver_Sun.png" alt="Silver Sun thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Silver Sun</h3>
-                            <p class="card-text text-center">Video Game - <b>Editor and Producer</b></p>
-
-                            <p class="card-text d-inline">Apr 2021 - Jun 2022</p>
-                            <a href="portfolioProjects/Silver_Sun.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Grandma_Please.html">
-                            <img class="card-img-top" src="images/Grandma_Please.png" alt="Grandma Please thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Grandma Please!</h3>
-                            <p class="card-text text-center">Video Game - <b>Copy Editor</b></p>
-
-                            <p class="card-text d-inline">Oct 2020 - May 2022</p>
-                            <a href="portfolioProjects/Grandma_Please.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border border-dark">
-                        <a href="portfolioProjects/Cymbal_Learning_Series.html">
-                            <img class="card-img-top" src="images/Cymbal.png" alt="Cymbal learning series thumbnail">
-                        </a>
-
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Cymbal Learning Series</h3>
-                            <p class="card-text text-center">Video Tutorial Series - <b>Videographer</b></p>
-
-                            <p class="card-text d-inline">Jun 2020 - Sep 2020</p>
-                            <a href="portfolioProjects/Cymbal_Learning_Series.html" class="d-inline btn btn-secondary" style="float:right;">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>            
-        </div>
-
-            <hr class="solid">
+        <p class="center-text" style="color:white; padding-bottom:20px;">
+            &copy;<em id="date"></em>2023 by Donovan Frazier
+        </p>
+    </footer>  
             
-            <h2 class="center-text" style="padding-top:50px;">Experience</h2>
-
-            <div class="center-text">
-
-                <p>Aug 2021 - Jan 2023</p>
-                <h3>Corriculum Development Student Assistant</h3>
-                <p><b>University of California, Riverside: Library</b></p>
-                <ul class="standard">
-                    <li>Design and edit digital learning objects for deployment in LMS portasl such as Canvas</li>
-                    <li>Video and photo editing assets used in online tutorials</li>
-                    <li>Develop a review system to improve the Library's design process</li>
-                    <li>Design a new file hierarchy for the department's cloud storage</li>
-                </ul>
-
-                <br>
-
-                <p>Dec 2021 - Jan 2023</p>
-                <h3>Outreach Coordinator</h3>
-                <p><b>Gamespawn: Game Development Club</b></p>
-                <ul class="standard">
-                    <li>Organize speaking events with video game industry professionals</li>
-                    <li>Design recruitment posters which boosted club workshop attendance <br> by 3x in the fall of 2022</li>
-                </ul>
-
-            </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col"></div>
-                <div class="col-8">
-                    <iframe src="docs/resume.pdf" style="width:100%; height:500px;"></iframe>
-                </div>
-                <div class="col"></div>
-            </div>
-        </div>
-
-    </div>
-    
-    <section>
-
-        <h2>Contact</h2>
-
-    </section>
+                
+    </body>
 
     <script src="JavaScript/darkMode.js"></script>
         
-            
-</body>
-        
- <footer>
-    <ul class="footer">
-        <li class="footer"><a href="index.html">Home</a></li>
-        <li class="footer"><a href="Resume.pdf" target="_blank">Resume</a></li>
-        <li class="footer"><a href="portfolio.html">Portfolio</a></li>
-        <li class="footer"><a href="contact.html">Contact</a></li>
-        <li class="footer"><a href="https://www.linkedin.com/in/donovan-frazier-8758b41ba/">Linkedin</a></li>
+      <script src="JavaScript/toggleButton.js"></script>
 
-        <li class="footer"><a href="education.html">Education</a></li>
-        <li class="footer"><a href="about.html">About</a></li>
-        <li class="footer"><a href="awards_and_publications.html">Awards and Publications</a></li>
-        <li class="footer"><a href="portfolioProjects/tech_talks.html">Tech Talks</a></li>
-        <li class="footer"><a href="notion.html">Notion</a></li>
-        <li class="footer"><a href="WebApps.html">Web Apps</a></li>
-    </ul>
-
-    <br><br><br><br><br>
-
-    <p class="center-text" style="color:white; padding-bottom:20px;">
-        &copy;<em id="date"></em>2023 by Donovan Frazier
-    </p>
- </footer>       
+        <script src="JavaScript/Header.js"></script>
         
         
 </html>
